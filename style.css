@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One','Sylfaen', 'Arial Unicode';
+}
+
+body {
+    overflow: hidden;
+}
+
+
+.tale {
+    width: 150px;
+    float: left;
+    margin: 1px;
+    height: 150px;
+    background: #0698cf;
+    font-size: 15vmin;
+    line-height: 150px;
+    text-align: center;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+    transition: margin 1s linear, background 0.2s linear;
+}
+
+.numbers {
+    position: absolute;
+    width: 608px;
+    top: calc(50% - 304px);
+    left: calc(50% - 304px);
+}
+
+#game {
+    font-size: 80px;
+    line-height: 608px;
+    text-align: center;
+}
+
+.bird {
+    position: absolute;
+}
+
+.bird-1 {
+    width: 120px;
+    height: 80px;
+}
+
+.bird-2 {
+    width: 55px;
+    height: 37px;
+}
+
+#res {
+    width: 250px;
+    height: 125px;
+    position: absolute;
+    top: calc(50% + 125px);
+    left: calc(50% - 125px);
+    font-size: 80px;
+    text-align: center;
+    line-height: 125px;
+    background: #0698cf;
+    transition: 1s linear;
+    display: none;
+}
+
+#res:hover {
+    cursor: pointer;
+    background: #7cc8a4;
+    color: #000;
+}
